@@ -9,9 +9,9 @@ spring:
   database:
     driverClassName: "com.mysql.jdbc.Driver"
   datasource:
-    url: "jdbc:mysql://mysql-aws.c4v3j9tgecmv.us-east-1.rds.amazonaws.com:3306/itemsharingdatabase"
+    url: "jdbc:mysql://localhost:3306/itemsharingdatabase"
     username: "root"
-    password: "{cipher}de8a2140acf533afcd9e1ee6f9156226581120ed6b49187e376694db634b7bad"
+    password: "{cipher}bd6760aaeb2a3184c816eb8818831f6ae7c95e03d8f2558e14632ba8d39391ed"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
     
