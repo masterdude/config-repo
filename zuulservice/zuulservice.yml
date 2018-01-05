@@ -1,7 +1,7 @@
 
- security:
-   basic:
-     enabled: false
+security:
+  basic:
+   enabled: false
     
 server:
   port: 5555
