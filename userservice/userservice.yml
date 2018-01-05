@@ -28,11 +28,15 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+#security:
+# oauth2:
+#  resource:
+#    userInfoUri: http://localhost:8901/user
+
 security:
- oauth2:
-  resource:
-    userInfoUri: http://localhost:8901/user
-    
+  basic:
+    enabled: false
+
 signing:
   key: 345345fsdgsf5345
   
