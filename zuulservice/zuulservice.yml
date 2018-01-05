@@ -13,7 +13,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://54.235.233.109:8761/eureka
+      defaultZone: http://localhost:8761/eureka
       
 zuul:
   routes:
@@ -43,7 +43,7 @@ management:
 #           timeout:
 #             enabled: false
 
-itemservice.ribbon.ReadTimeout: 5000
-userservice.ribbon.ReadTimeout: 5000
-authorizationservice.ribbon.ReadTimeout: 5000
+#itemservice.ribbon.ReadTimeout: 5000
+#userservice.ribbon.ReadTimeout: 5000
+#authorizationservice.ribbon.ReadTimeout: 5000
     
