@@ -42,6 +42,3 @@ security:
 #security:
 #  basic:
 #    enabled: false
-
-signing:
-  key: 345345fsdgsf5345
